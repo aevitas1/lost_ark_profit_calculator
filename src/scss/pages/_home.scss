@@ -1,0 +1,15 @@
+.hero_container {
+  display: flex;
+  height: 16rem;
+  .header_image {
+    height: 16rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 20%;
+    background-size: cover;
+  }
+}
+
+.materials img {
+  width: 5rem;
+}
