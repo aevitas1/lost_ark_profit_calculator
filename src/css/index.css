@@ -145,6 +145,7 @@ h1 {
 
 body {
   background-color: rgba(var(--bg-main));
+  transition: 300ms ease-out;
 }
 
 .page_wrapper {
@@ -165,6 +166,15 @@ body {
   background-size: cover;
 }
 
-.materials img {
-  width: 5rem;
+.materials_toggle button {
+  width: 100%;
+  height: 3rem;
+}
+
+.materials {
+  height: 0px;
+}
+
+.show.materials {
+  display: block;
 }/*# sourceMappingURL=index.css.map */

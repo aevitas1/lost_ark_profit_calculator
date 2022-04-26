@@ -1,5 +1,6 @@
 body {
   background-color: rgba(var(--bg-main));
+  transition: 300ms ease-out;
 }
 .page_wrapper {
   background-color: rgba(var(--bg-secondary));
