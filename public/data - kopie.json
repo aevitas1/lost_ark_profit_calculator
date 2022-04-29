@@ -1,0 +1,222 @@
+{
+  "crafting_maps": {
+    "chests": [
+      {
+        "name": "Luterra Treasure Map Chest",
+        "materials": [
+          { "name": "Faint Ancient Relic", "amount": "60" },
+          { "name": "Hardwood", "amount": "120" },
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Arthetine Treasure Map Chest",
+        "materials": [
+          { "name": "Faint Ancient Relic", "amount": "60" },
+          { "name": "Hardwood", "amount": "120" },
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Vern Treasure Map Chest",
+        "materials": [
+          { "name": "Faint Ancient Relic", "amount": "60" },
+          { "name": "Hardwood", "amount": "120" },
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Rohendel Treasure Map Chest",
+        "materials": [
+          { "name": "Faint Ancient Relic", "amount": "70" },
+          { "name": "Hardwood", "amount": "140" },
+          { "name": "Crude Iron Ore", "amount": "140" },
+          { "name": "Gold", "amount": "15" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Yorn Treasure Map Chest",
+        "materials": [
+          { "name": "Ancient Caldarr Relic", "amount": "10" },
+          { "name": "Faint Ancient Relic", "amount": "40" },
+          { "name": "Hardwood", "amount": "150" },
+          { "name": "Crude Iron Ore", "amount": "150" },
+          { "name": "Gold", "amount": "20" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Feiton Treasure Map Chest",
+        "materials": [
+          { "name": "Ancient Caldarr Relic", "amount": "10" },
+          { "name": "Faint Ancient Relic", "amount": "40" },
+          { "name": "Hardwood", "amount": "175" },
+          { "name": "Crude Iron Ore", "amount": "175" },
+          { "name": "Gold", "amount": "30" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Punika Treasure Map Chest",
+        "materials": [
+          { "name": "Ancient Oreha Relic", "amount": "12" },
+          { "name": "Faint Ancient Relic", "amount": "48" },
+          { "name": "Hardwood", "amount": "195" },
+          { "name": "Crude Iron Ore", "amount": "195" },
+          { "name": "Gold", "amount": "40" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "South Vern Treasure Map Chest",
+        "materials": [
+          { "name": "Ancient Oreha Relic", "amount": "14" },
+          { "name": "Faint Ancient Relic", "amount": "56" },
+          { "name": "Hardwood", "amount": "215" },
+          { "name": "Crude Iron Ore", "amount": "215" },
+          { "name": "Gold", "amount": "50" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      }
+    ],
+    "maps": [
+      {
+        "name": "Luterra Archaeological Site Map",
+        "materials": [
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Arthetine Archaeological Site Map",
+        "materials": [
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "North Vern Archaeological Site Map",
+        "materials": [
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Rohendel Archaeological Site Map",
+        "materials": [
+          { "name": "Rare Relic", "amount": "200" },
+          { "name": "Gold", "amount": "15" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Yorn Archaeological Site Map",
+        "materials": [
+          { "name": "Caldarr Relic", "amount": "30" },
+          { "name": "Rare Relic", "amount": "150" },
+          { "name": "Gold", "amount": "20" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Feiton Archaeological Site Map",
+        "materials": [
+          { "name": "Caldarr Relic", "amount": "35" },
+          { "name": "Rare Relic", "amount": "175" },
+          { "name": "Gold", "amount": "30" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "Punika Archaeological Site Map",
+        "materials": [
+          { "name": "Caldarr Relic", "amount": "39" },
+          { "name": "Rare Relic", "amount": "195" },
+          { "name": "Gold", "amount": "40" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      },
+
+      {
+        "name": "South Vern Archaeological Site Map",
+        "materials": [
+          { "name": "Caldarr Relic", "amount": "43" },
+          { "name": "Rare Relic", "amount": "215" },
+          { "name": "Gold", "amount": "50" }
+        ],
+        "crafting": [
+          { "name": "Time", "amount": "04:00:00" },
+          { "name": "Action Energy", "amount": "1152" }
+        ]
+      }
+    ]
+  }
+}

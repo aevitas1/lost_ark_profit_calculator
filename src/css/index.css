@@ -195,7 +195,7 @@ body {
   transition: max-height 0.3s ease-out;
 }
 
-.show_materials {
+.show.materials {
   display: block;
   padding-top: 2rem;
   transition: max-height 0.3s ease-out;
@@ -239,4 +239,12 @@ body {
 .material_container .material_list .material .input_container img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+#crafting_cost_table .map_names {
+  display: flex;
+  flex-flow: row;
+}
+#crafting_cost_table img {
+  width: 2rem;
 }/*# sourceMappingURL=index.css.map */
