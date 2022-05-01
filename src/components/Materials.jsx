@@ -85,6 +85,7 @@ function Materials() {
               </span>
             </div>
           </div>
+          <h3>Stronghold Bonus</h3>
         </div>
       </div>
 

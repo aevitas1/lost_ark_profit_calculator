@@ -141,6 +141,9 @@ h1 {
   --bg-main: 255, 255, 255;
   --bg-secondary: 229, 229, 229;
   --primary-clr: 252, 163, 17;
+  --table-border: 0, 0, 0;
+  --table-border-width: 1px;
+  --table-border-opacity: 1;
 }
 
 body {
@@ -241,10 +244,33 @@ body {
   height: 1.5rem;
 }
 
+#crafting_cost_table tr th {
+  border-right: var(--table-border-width) solid rgba(var(--table-border), var(--table-border-opacity));
+  border-bottom: var(--table-border-width) solid rgba(var(--table-border), var(--table-border-opacity));
+  padding-bottom: 1rem;
+}
 #crafting_cost_table .map_names {
+  border-bottom: var(--table-border-width) solid rgba(var(--table-border), var(--table-border-opacity));
+}
+#crafting_cost_table .map_names span {
+  display: flex;
+  flex-flow: row;
+}
+#crafting_cost_table .material_count {
+  display: flex;
+  flex-flow: column;
+  border-left: var(--table-border-width) solid rgba(var(--table-border), var(--table-border-opacity));
+  border-bottom: var(--table-border-width) solid rgba(var(--table-border), var(--table-border-opacity));
+  padding-bottom: 1rem;
+}
+#crafting_cost_table .material_count {
+  display: inline-flex;
+}
+#crafting_cost_table .material_count span {
   display: flex;
   flex-flow: row;
 }
 #crafting_cost_table img {
-  width: 2rem;
+  width: 1.5rem;
+  margin-right: 0.5rem;
 }/*# sourceMappingURL=index.css.map */

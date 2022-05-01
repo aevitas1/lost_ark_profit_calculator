@@ -1,12 +1,39 @@
 #crafting_cost_table {
+  tr {
+    th {
+      border-right: var(--table-border-width) solid
+        rgba(var(--table-border), var(--table-border-opacity));
+      border-bottom: var(--table-border-width) solid
+        rgba(var(--table-border), var(--table-border-opacity));
+      padding-bottom: 1rem;
+    }
+  }
   .map_names {
+    border-bottom: var(--table-border-width) solid
+      rgba(var(--table-border), var(--table-border-opacity));
+    span {
+      display: flex;
+      flex-flow: row;
+    }
+  }
+  .material_count {
+    display: flex;
+    flex-flow: column;
+    border-left: var(--table-border-width) solid
+      rgba(var(--table-border), var(--table-border-opacity));
+    border-bottom: var(--table-border-width) solid
+      rgba(var(--table-border), var(--table-border-opacity));
+    padding-bottom: 1rem;
+  }
+  .material_count {
+    display: inline-flex;
+  }
+  .material_count span {
     display: flex;
     flex-flow: row;
   }
-  // .material_count {
-  //   display: inline-flex;
-  // }
   img {
-    width: 2rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
   }
 }
