@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import MaterialContext from "../context/MaterialContext";
 import mapImage from "../assets/materials/map.png";
 import caldarr_relic from "../assets/materials/caldarr_relic_excavating.png";
@@ -7,8 +7,10 @@ import rare_relic from "../assets/materials/rare_relic_excavating.png";
 import gold from "../assets/materials/gold_currencies.png";
 // import PropTypes from 'prop-types'
 
-function Table({ children }) {
-  const { crafts } = useContext(MaterialContext);
+function Table() {
+  const { crafts, materialPrice } = useContext(MaterialContext);
+  const [calcMapPrice, setCalcMapPrice] = useState([]);
+
   return (
     <>
       <table id="crafting_cost_table">
@@ -20,44 +22,51 @@ function Table({ children }) {
           </tr>
         </thead>
         <tbody>
-          {crafts.maps.map((item, index) => (
+          {crafts.maps.map((item) => (
             <>
               <tr className="material_row">
-                <td key={index} className="map_names">
+                <td key={item.index + 1} className="map_names">
                   <span>
                     <img src={mapImage} className="map_img" alt="A map" />
                     <p>{item.name}</p>
                   </span>
                 </td>
-                <td key={index} className="material_count">
-                  {item.materials.map((names, index) => (
+                <td className="material_count">
+                  {item.materials.map((names) => (
                     <>
                       {names.name === "Caldarr Relic" && (
-                        <span>
+                        <span key={item.index + 1.1}>
                           <img src={caldarr_relic} alt="Caldarr relic" />
-                          <p>
-                            {names.name} x {names.amount}
-                          </p>
+                          <p style={{ width: "10rem" }}>{names.name}</p>
+                          <p>{names.amount}</p>
                         </span>
                       )}
                       {names.name === "Rare Relic" && (
-                        <span>
+                        <span key={item.index + 1.11}>
                           <img src={rare_relic} alt="Rare relic" />
-                          <p>
-                            {names.name} x {names.amount}
-                          </p>
+                          <p style={{ width: "10rem" }}>{names.name}</p>
+                          <p>{names.amount}</p>
                         </span>
                       )}
                       {names.name === "Gold" && (
-                        <span>
+                        <span key={item.index + 1.111}>
                           <img src={gold} alt="Gold coins" />
-                          <p>
-                            {names.name} x {names.amount}
-                          </p>
+                          <p style={{ width: "10rem" }}>{names.name}</p>
+                          <p>{names.amount}</p>
                         </span>
                       )}
                     </>
                   ))}
+                </td>
+                <td className="total_mat_cost">
+                  <span key={item.index + 1.1111}>
+                    <img src={gold} alt="Gold coins" />
+                    {item.materials.map((amounts) => (
+                      <>
+                        <p>Hi</p>
+                      </>
+                    ))}
+                  </span>
                 </td>
               </tr>
             </>

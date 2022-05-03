@@ -5,10 +5,10 @@
         "name": "Luterra Treasure Map Chest",
         "index": "1",
         "materials": [
-          { "name": "Gold", "amount": "10" },
           { "name": "Faint Ancient Relic", "amount": "60" },
           { "name": "Hardwood", "amount": "120" },
-          { "name": "Crude Iron Ore", "amount": "120" }
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -20,10 +20,10 @@
         "name": "Arthetine Treasure Map Chest",
         "index": "2",
         "materials": [
-          { "name": "Gold", "amount": "10" },
           { "name": "Faint Ancient Relic", "amount": "60" },
           { "name": "Hardwood", "amount": "120" },
-          { "name": "Crude Iron Ore", "amount": "120" }
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -35,10 +35,10 @@
         "name": "Vern Treasure Map Chest",
         "index": "3",
         "materials": [
-          { "name": "Gold", "amount": "10" },
           { "name": "Faint Ancient Relic", "amount": "60" },
           { "name": "Hardwood", "amount": "120" },
-          { "name": "Crude Iron Ore", "amount": "120" }
+          { "name": "Crude Iron Ore", "amount": "120" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -50,10 +50,10 @@
         "name": "Rohendel Treasure Map Chest",
         "index": "4",
         "materials": [
-          { "name": "Gold", "amount": "15" },
           { "name": "Faint Ancient Relic", "amount": "70" },
           { "name": "Hardwood", "amount": "140" },
-          { "name": "Crude Iron Ore", "amount": "140" }
+          { "name": "Crude Iron Ore", "amount": "140" },
+          { "name": "Gold", "amount": "15" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -65,11 +65,11 @@
         "name": "Yorn Treasure Map Chest",
         "index": "5",
         "materials": [
-          { "name": "Gold", "amount": "20" },
           { "name": "Ancient Caldarr Relic", "amount": "10" },
           { "name": "Faint Ancient Relic", "amount": "40" },
           { "name": "Hardwood", "amount": "150" },
-          { "name": "Crude Iron Ore", "amount": "150" }
+          { "name": "Crude Iron Ore", "amount": "150" },
+          { "name": "Gold", "amount": "20" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -81,11 +81,11 @@
         "name": "Feiton Treasure Map Chest",
         "index": "6",
         "materials": [
-          { "name": "Gold", "amount": "30" },
           { "name": "Ancient Caldarr Relic", "amount": "10" },
           { "name": "Faint Ancient Relic", "amount": "40" },
           { "name": "Hardwood", "amount": "175" },
-          { "name": "Crude Iron Ore", "amount": "175" }
+          { "name": "Crude Iron Ore", "amount": "175" },
+          { "name": "Gold", "amount": "30" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -97,11 +97,11 @@
         "name": "Punika Treasure Map Chest",
         "index": "7",
         "materials": [
-          { "name": "Gold", "amount": "40" },
           { "name": "Ancient Oreha Relic", "amount": "12" },
           { "name": "Faint Ancient Relic", "amount": "48" },
           { "name": "Hardwood", "amount": "195" },
-          { "name": "Crude Iron Ore", "amount": "195" }
+          { "name": "Crude Iron Ore", "amount": "195" },
+          { "name": "Gold", "amount": "40" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -113,11 +113,11 @@
         "name": "South Vern Treasure Map Chest",
         "index": "8",
         "materials": [
-          { "name": "Gold", "amount": "50" },
           { "name": "Ancient Oreha Relic", "amount": "14" },
           { "name": "Faint Ancient Relic", "amount": "56" },
           { "name": "Hardwood", "amount": "215" },
-          { "name": "Crude Iron Ore", "amount": "215" }
+          { "name": "Crude Iron Ore", "amount": "215" },
+          { "name": "Gold", "amount": "50" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -130,8 +130,8 @@
         "name": "Luterra Archaeological Site Map",
         "index": "20",
         "materials": [
-          { "name": "Gold", "amount": "10" },
-          { "name": "Rare Relic", "amount": "170" }
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -143,8 +143,8 @@
         "name": "Arthetine Archaeological Site Map",
         "index": "21",
         "materials": [
-          { "name": "Gold", "amount": "10" },
-          { "name": "Rare Relic", "amount": "170" }
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -156,8 +156,8 @@
         "name": "North Vern Archaeological Site Map",
         "index": "22",
         "materials": [
-          { "name": "Gold", "amount": "10" },
-          { "name": "Rare Relic", "amount": "170" }
+          { "name": "Rare Relic", "amount": "170" },
+          { "name": "Gold", "amount": "10" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -169,8 +169,8 @@
         "name": "Rohendel Archaeological Site Map",
         "index": "23",
         "materials": [
-          { "name": "Gold", "amount": "15" },
-          { "name": "Rare Relic", "amount": "200" }
+          { "name": "Rare Relic", "amount": "200" },
+          { "name": "Gold", "amount": "15" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -182,9 +182,9 @@
         "name": "Yorn Archaeological Site Map",
         "index": "24",
         "materials": [
-          { "name": "Gold", "amount": "20" },
           { "name": "Caldarr Relic", "amount": "30" },
-          { "name": "Rare Relic", "amount": "150" }
+          { "name": "Rare Relic", "amount": "150" },
+          { "name": "Gold", "amount": "20" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -196,9 +196,9 @@
         "name": "Feiton Archaeological Site Map",
         "index": "25",
         "materials": [
-          { "name": "Gold", "amount": "30" },
           { "name": "Caldarr Relic", "amount": "35" },
-          { "name": "Rare Relic", "amount": "175" }
+          { "name": "Rare Relic", "amount": "175" },
+          { "name": "Gold", "amount": "30" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -210,9 +210,9 @@
         "name": "Punika Archaeological Site Map",
         "index": "26",
         "materials": [
-          { "name": "Gold", "amount": "40" },
           { "name": "Caldarr Relic", "amount": "39" },
-          { "name": "Rare Relic", "amount": "195" }
+          { "name": "Rare Relic", "amount": "195" },
+          { "name": "Gold", "amount": "40" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },
@@ -224,9 +224,9 @@
         "name": "South Vern Archaeological Site Map",
         "index": "27",
         "materials": [
-          { "name": "Gold", "amount": "50" },
           { "name": "Caldarr Relic", "amount": "43" },
-          { "name": "Rare Relic", "amount": "215" }
+          { "name": "Rare Relic", "amount": "215" },
+          { "name": "Gold", "amount": "50" }
         ],
         "crafting": [
           { "name": "Time", "amount": "04:00:00" },

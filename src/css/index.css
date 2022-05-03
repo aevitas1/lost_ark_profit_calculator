@@ -142,7 +142,7 @@ h1 {
   --bg-secondary: 229, 229, 229;
   --primary-clr: 252, 163, 17;
   --table-border: 0, 0, 0;
-  --table-border-width: 1px;
+  --table-border-width: thin;
   --table-border-opacity: 1;
 }
 
