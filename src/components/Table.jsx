@@ -16,7 +16,7 @@ function Table() {
       <table id="crafting_cost_table">
         <thead>
           <tr>
-            <th>Maps</th>
+            <th>Map</th>
             <th>Materials</th>
             <th>Total</th>
           </tr>
